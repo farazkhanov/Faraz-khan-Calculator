@@ -77,7 +77,7 @@ function compute(a, b, operator) {
 
 // Keyboard support
 window.addEventListener("keydown", (e) => {
-  if (e.key >= "0" && e.key <= "9") simulateClick(`[data-num="${e.key}"]`);
+  if (e.key >= "0" && e.key <= "9") simulate click(`[data-num="${e.key}"]`);
   else if (e.key === ".") simulateClick('[data-num="."]');
   else if (e.key === "Enter" || e.key === "=")
     simulateClick('[data-action="equals"]');

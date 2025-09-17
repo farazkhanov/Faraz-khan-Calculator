@@ -7,7 +7,7 @@
 
 :root {
   --accent: #60a5fa;
-  --accent2: #3b82f6;
+  --accent2: #2368d6;
   --muted: #9ca3af;
   --glass-2: rgba(255, 255, 255, 0.05);
 }
@@ -17,16 +17,12 @@
   width: 260px;
   background: #1e1e2f;
   padding: 15px;
+  position: relative;
+  left: 320px;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 25px rgba(10, 10, 10, 0.4);
   color: #fff;
   font-family: "Segoe UI", sans-serif;
-  position: relative;
-  left: 300px;
-  transition: all 1s ease-in-out;
-}
-.wrap:hover {
-  transform: scaleY(1);
 }
 
 /* Header */
@@ -121,7 +117,7 @@ button.key {
     rgba(255, 255, 255, 0.01)
   );
   color: var(--muted);
-  box-shadow: 0 4px 10px rgba(2, 6, 23, 0.6),
+  box-shadow: 0 4px 10px rgba(2, 7, 31, 0.6),
     inset 0 -4px 0 rgba(255, 255, 255, 0.01);
   cursor: pointer;
   transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.18s;
